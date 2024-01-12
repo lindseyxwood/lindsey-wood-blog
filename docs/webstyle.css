@@ -57,3 +57,7 @@ footer {
     width: 100%;
     border-top: 5px solid #ffac33; /* Orange border at the top */
 }
+
+img {
+    float: right
+}
