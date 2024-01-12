@@ -20,7 +20,11 @@ nav ul {
 }
 
 nav li {
-    float: left;
+    float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 nav a {
