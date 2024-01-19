@@ -61,3 +61,15 @@ footer {
 img {
     float: right
 }
+
+h1 {
+    text-align: center;
+    color: white;
+    -webkit-text-stroke: 2px black;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    -webkit-text-stroke: 2px black;
+}
