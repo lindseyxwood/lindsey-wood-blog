@@ -40,7 +40,6 @@ nav a:hover {
 
 div.about-me {
     padding: 20px;
-    display: flex;
 }
 
 div.entries {
@@ -62,7 +61,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    border-top: 5px solid #ffac33; 
+    border-top: 5px solid #ef8354; 
 }
 
 img {
@@ -102,4 +101,12 @@ h2.welcome{
     text-align: center;
     color: #ee4b6a;
     font-weight: bold;
+}
+
+div.project-archive{
+    margin-bottom: 20px;
+    border: 4px solid #0f7173; 
+    border-radius: 10px; 
+    padding: 15px;
+    background-color: #fff; 
 }
