@@ -31,9 +31,11 @@
             <h2>
                 <button>Look at this cool button!</button>
             </h2>
-            <p id="colorToggle">This page is used for experiementing with JavaScript. Interact with the elements to
-                see how they change.</p>
-            <h2><button>Another button!</button></h2>
+            <p id="colorToggle">This page is used for experiementing with JavaScript. Interact with
+                the elements to see how they change.</p>
+            <h2>
+                <button>Another button!</button>
+            </h2>
             <p>Here we are experimenting with changing background colors.</p>
             <h2>Let's test out some checkboxes!</h2>
             <ul>
@@ -42,7 +44,30 @@
                 <li><input type="checkbox" value="food" />Food</li>
                 <li><input type="checkbox" value="pers" />Person</li>
             </ul>
-            <p class="sample">On the farm, was a <span class="pers">farmer</span>. He had <span class="anml">cows</span>, <span class="anml">chickens</span>, and <span class="anml">pigs</span>. He grew <span class="food">corn</span> and <span class="plt">pine trees</span>.</p>
+            <p class="sample">On the farm, was a <span class="pers">farmer</span>. He had <span
+                    class="anml">cows</span>, <span class="anml">chickens</span>, and <span
+                    class="anml">pigs</span>. He grew <span class="food">corn</span> and <span
+                    class="plt">pine trees</span>.</p>
+            <h2>SVG</h2>
+            <figure id="circle">
+                <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow">
+                        <animate attributeName="cx" begin="0s" dur="8s" from="50" to="90%"
+                            fill="freeze"/>
+                    </circle>
+                </svg>
+                <svg width="320" height="130" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="300" height="100" x="10" y="10"
+                        style="fill:rgb(0,0,255);stroke-width:3;stroke:red">
+                        <animateMotion
+                            path="M0,0 q60,100 100,0 q60,-20 100,0"
+                            begin="0s"
+                            dur="10s"
+                            repeatCount="indefinite" />
+                    </rect>
+                </svg>
+            </figure>
+            <p>Code view <a href="https://github.com/lindseyxwood/lindsey-wood-blog/tree/main/docs">here</a>!</p>
         </div>
     </body>
 </html>
