@@ -178,3 +178,50 @@ iframe {
 }
 
 span.pers.on {color: white}
+
+div.port-header {color: black;}
+
+.custom-cursor {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #333;
+  border-radius: 50%;
+  pointer-events: none;
+  transition: transform 0.2s ease;
+}
+
+.custom-cursor.active {
+  transform: scale(1.5);
+}
+
+.project {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.project.fade-in {
+    opacity: 1;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  display: none;
+  font-size: 16px;
+}
+
+.scroll-to-top:hover {
+  background: #444;
+}
+
+.project img {
+  transition: transform 0.3s ease;
+}
